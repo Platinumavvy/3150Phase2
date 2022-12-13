@@ -80,14 +80,19 @@ const App = () => (
 					onPress={() => Alert.alert("button pressed")}
 				/>
 			</View>
+			<Seperator />
+			<Seperator />
+			<View>
+				<Image style={styles.image} source={require("./img/yukon.webp")} />
+				<Text style={styles.title}>2006 GMC Yukon XL Denali</Text>
+				<Button
+					style={styles.infobutton}
+					title="View information"
+					onPress={() => Alert.alert("button pressed")}
+				/>
+			</View>
 		</ScrollView>
 	</SafeAreaView>
 );
-// const styles = StyleSheet.create({
-// 	Container: {
-// 		flex: 1,
-// 		justifyContent: "center",
-// 		marginHorizontal: 16,
-// 	},
-// });
+
 export default App;
