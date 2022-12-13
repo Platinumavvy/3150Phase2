@@ -89,11 +89,15 @@ const App = () => (
 			<Seperator />
 			<View>
 				<Image style={styles.image} source={require("./img/Aura.jpeg")} />
-				<Text style={styles.title}>2008 Saturn Aura</Text>
+				<Text style={styles.title}>2008 Saturn Aura XR</Text>
 				<Button
 					style={styles.infobutton}
 					title="View information"
-					onPress={() => Alert.alert("button pressed")}
+					onPress={() =>
+						Alert.alert(
+							"2007's North American Car of the Year Winner the Saturn Aura. A family sedan with the comfort and speed of a Cadillac and the pricepoint of a Chevrolet. The XE was the base model, it featured a 2.4 Liter Inline 4 cylinder engine which was excellent on fuel. The XE also had an optional 3.5 Liter V-6 which upped its power output. The Aura even had a Hybrid version, which was impressive for its time. They called it the GreenLine which featured an electric motor matted to the Inline 4 cylinder engine. Finally the XR trim, which had a standard 3.6 liter V-6 and paddle shifter transmission. The XR had 252 Horsepower from the factory, which made this family sedan quite a riot to drive."
+						)
+					}
 				/>
 			</View>
 			<Seperator />
@@ -104,7 +108,11 @@ const App = () => (
 				<Button
 					style={styles.infobutton}
 					title="View information"
-					onPress={() => Alert.alert("button pressed")}
+					onPress={() =>
+						Alert.alert(
+							"Built on the same platform as the Avalanche and a few other models, the Yukon was the Chevy Suburbans counterpart. It also featured the 5.3 liter V-8 in its base model and sat up to 8 in the right configuration. The Denali name plate was the highest trim possible, It included a standard 6.0 liter V-8 and all-wheel-drive"
+						)
+					}
 				/>
 			</View>
 			<Seperator />
@@ -115,7 +123,11 @@ const App = () => (
 				<Button
 					style={styles.infobutton}
 					title="View information"
-					onPress={() => Alert.alert("button pressed")}
+					onPress={() =>
+						Alert.alert(
+							"The Regal name has been in the Buick family since 1973, it has had many major changes in its life time. From a family sedan making only 160 pound feet of torque to a 2 door coupe that made 360 pound feet of torque, it has a story to tell. Towards the end of its years it came standard with a 2.4 liter inline 4 cylinder engine, however the long living trim level GS featured a 2.0 liter Turbo 4 cylinder making 270 horsepower and 295 pound feet of torque. Making it another one of GMs hidden treasures in the family sedan category."
+						)
+					}
 				/>
 			</View>
 		</ScrollView>
