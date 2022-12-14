@@ -130,6 +130,21 @@ const App = () => (
 					}
 				/>
 			</View>
+			<Seperator />
+			<Seperator />
+			<View>
+				<Image style={styles.image} source={require("./img/CRV.webp")} />
+				<Text style={styles.title}>2015 Honda CR-V Touring</Text>
+				<Button
+					style={styles.infobutton}
+					title="View information"
+					onPress={() =>
+						Alert.alert(
+							"The CR-V nameplate has been around with Honda since 1995. Its flagship came with Hondas long time reliable V-tec inline 4 cylinder 2.4 liter. It also had optional steering assist, something Honda calls LKAS (lane keep assistant). "
+						)
+					}
+				/>
+			</View>
 		</ScrollView>
 	</SafeAreaView>
 );
